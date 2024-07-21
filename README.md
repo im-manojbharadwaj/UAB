@@ -87,8 +87,8 @@ Contributions to this project are welcome. Please fork the repository and submit
 
 ## Acknowledgments
 
-Flask: https://flask.palletsprojects.com/
-Flask-SQLAlchemy: https://flask-sqlalchemy.palletsprojects.com/
-Flask-Bcrypt: https://flask-bcrypt.readthedocs.io/
-Flask-Login: https://flask-login.readthedocs.io/
-Bootstrap: https://getbootstrap.com/
+- Flask: https://flask.palletsprojects.com/
+- Flask-SQLAlchemy: https://flask-sqlalchemy.palletsprojects.com/
+- Flask-Bcrypt: https://flask-bcrypt.readthedocs.io/
+- Flask-Login: https://flask-login.readthedocs.io/
+- Bootstrap: https://getbootstrap.com/
