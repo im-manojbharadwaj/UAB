@@ -61,6 +61,7 @@ Usage
 - Use the Logout button to end your session.
 
 ## Project Structure
+```
 Lab_07/
 │
 ├── app/
@@ -78,7 +79,7 @@ Lab_07/
 ├── run.py
 ├── requirements.txt
 └── README.md
-
+```
 
 ## Contributing
 
