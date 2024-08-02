@@ -1,4 +1,4 @@
-# 7-Eleven Clone Web Application
+# E-Commerce Web Application similar to Amazon or 7-Eleven
 
 ## Table of Contents
 
