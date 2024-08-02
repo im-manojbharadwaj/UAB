@@ -134,6 +134,25 @@ I have already included the `.env` having my API keys for below sites:
 -   Cloudinary API (Cloud API for storing images)
 -   Stripe Public Key (payment gateway)
 
+6. **Stripe Configuration**
+
+Register and Login to https://dashboard.stripe.com/
+Once you are logged in go to https://dashboard.stripe.com/test/webhooks/create?endpoint_location=local
+Click on `Download the CLI`
+Scroll down till you see `Install the Stripe CLI`
+Choose your OS and click on GitHub
+Download and install if you are using Windows OS or Download and Extract if you are using Mac OS.
+
+If you're on Windows OS, go to the directory of Stripe that you installed and follow the same instructions provided on https://docs.stripe.com/stripe-cli under the point number `2. Log in to CLI`
+
+If you're on Mac OS, use below commands in sequence: (I have extracted the taz.gz file in my downloads directory)
+1. `/Users/manoj/Downloads/stripe login`
+2. `/Users/manoj/Downloads/stripe listen --forward-to localhost:8080/api/webhook`
+
+Once you do both the above steps you should be seeing the steps as completed on https://dashboard.stripe.com/test/webhooks/create?endpoint_location=local 
+
+**NOTE: Doing the above step is necessary because the order placement, payment and writing on MongoDB goes through this webhook.**
+
 ## Codebase Usage
 
 With above set up you are ready to execute the project. Best way to run is to open two terminals in VS Code. One pointing at `frontend` directory and one pointing at `backend` directory like below:
