@@ -85,7 +85,7 @@ If you are using Github link to download the codebase and use it to run and test
 
 Open the VS Code and
  ```sh
- git clone https://github.com/your-username/7-eleven-clone.git
+ git clone https://github.com/im-manojbharadwaj/UAB.git
  ```
 
 But if you use the codebase that is uploaded on Canvas (zip file) then you can just unzip the file and open the `7-eleven-app` directory from VS Code.
@@ -94,6 +94,7 @@ But if you use the codebase that is uploaded on Canvas (zip file) then you can j
 
 Assuming you have conda installed
  ```sh
+ cd CS621
  cd 7-eleven-app
  conda create -n web_venv python=3.8
  conda activate web_venv # On Windows, use `venv\Scripts\activate`
