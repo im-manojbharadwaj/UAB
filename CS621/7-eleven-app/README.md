@@ -141,7 +141,7 @@ With above set up you are ready to execute the project. Best way to run is to op
  +-------------Terminal_1------------+-------------Terminal_2-----------+
  |                                   |                                  |
  |(web_venv)Manoj% cd frontend       |(web_venv)Manoj% cd backend       |
- |									                 |						 	                    |
+ |                                   |                                  |
  +-----------------------------------+----------------------------------+
  ```
 
@@ -159,9 +159,9 @@ On the terminal pointing to `frontend` run by using below command:
  It will look something like below:
   ```sh
   +-------------Terminal_1---------------+-------------Terminal_2--------------------+
-  |									                     |								                           |
+  |                                      |                                           |
   |(web_venv)Manoj frontend % npm start  |(web_venv)Manoj backend % npm run dev      |
-  |									                     |									                         |
+  |                                      |                                           |
   +--------------------------------------+-------------------------------------------+
   ```
 
