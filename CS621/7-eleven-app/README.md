@@ -139,7 +139,7 @@ I have already included the `.env` having my API keys for below sites:
 With above set up you are ready to execute the project. Best way to run is to open two terminals in VS Code. One pointing at `frontend` directory and one pointing at `backend` directory like below:
  ```sh
  +-------------Terminal_1------------+-------------Terminal_2-----------+
- |									                 |						                    	|
+ |                                   |                                  |
  |(web_venv)Manoj% cd frontend       |(web_venv)Manoj% cd backend       |
  |									                 |						 	                    |
  +-----------------------------------+----------------------------------+
